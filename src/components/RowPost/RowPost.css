@@ -1,0 +1,40 @@
+.rowPost{
+margin-left: 20px;
+color: #fff;
+}
+
+.rowPost__posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.rowPost__poster{
+    max-height: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.rowPost__poster:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.rowPost__small{
+    max-height: 150px;
+    object-fit: contain;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.rowPost__small:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.rowPost__posters::-webkit-scrollbar{
+    display: none;
+}
